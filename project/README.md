@@ -1,38 +1,55 @@
-# Just-Chill
+# Just-Chill 🎬
 
-Just-Chill is a Netflix clone project that mimics the core features and interface of Netflix, allowing users to browse and watch movies and TV shows.
+**Just-Chill** is a full-stack **Netflix clone** application built with React for the frontend and Node.js with Express for the backend. It allows users to browse trending and popular movies/shows, view details, and experience a Netflix-style interface.
 
-## Description
+---
 
-Just-Chill is a streaming platform clone designed to showcase similar functionality to Netflix. It features a user-friendly interface where users can explore various categories, search for titles, and view movie or show details.
+## 🧩 Tech Stack
 
-## Features
+### Frontend
+- React.js
+- HTML, CSS, JavaScript
+- Axios
+- TMDB API *(if used for movie data)*
+
+### Backend
+- Node.js
+- Express.js
+- CORS, dotenv, other middleware
+- REST API endpoints to serve content
+
+### Tools
+- Git & GitHub
+- VS Code
+- npm / yarn
+
+---
+
+## 🚀 Features
 
 - Browse trending and popular movies/shows  
-- Search for movies and TV shows  
 - View detailed information about titles  
-- Responsive design for desktop and mobile  
-- Smooth navigation and interactive UI 
+- Responsive Netflix-style design  
+- REST API backend to handle data fetching  
+- Search and filter content *(if implemented)*  
+- Clean, modular codebase (separate frontend/backend)
 
-### Setup .env file
+---
+
+## ⚙️ Installation & Setup
+
+### 🔧 Backend (Node.js + Express)
 
 ```bash
-PORT=5000
-MONGO_URI=your_mongo_uri
-NODE_ENV=development
-JWT_SECRET=your_jwt_secre
+# 1. Navigate to backend folder
+cd backend
+
+# 2. Install backend dependencies
+npm install
+
+# 3. Create a .env file for environment variables
+# Example:
 TMDB_API_KEY=your_tmdb_api_key
-```
 
-### Run this app locally
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
+# 4. Start backend server
 npm run start
-```
-
